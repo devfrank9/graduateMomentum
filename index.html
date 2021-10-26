@@ -19,23 +19,15 @@
       </div>
     </header>
     <main>
-      <form class="hidden" id="login-form">
-        <input
-          required
-          maxlength="15"
-          type="text"
-          placeholder="What is your name?"
-        />
-        <input type="submit" value="Log In" />
-      </form>
       <h2 id="clock">00:00</h2>
       <h1 class="hidden" id="greeting"></h1>
+      <form class="hidden" id="login-form">
+        <p>What's your name?</p>
+        <input required maxlength="15" type="text" />
+      </form>
+      <p>What is main focus for today?</p>
       <form id="todo-form">
-        <input
-          type="text"
-          placeholder="Write a To Do and Press Enter"
-          required
-        />
+        <input type="text" required />
       </form>
       <ul id="todo-list"></ul>
     </main>

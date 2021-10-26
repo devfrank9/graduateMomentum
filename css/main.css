@@ -1,7 +1,42 @@
+.hidden {
+  display: none;
+}
+
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+main h2 {
+  font-size: 140px;
+}
+
+main h1 {
+  font-size: 50px;
+}
+
+main p {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+#login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#login-form p {
+  font-size: 50px;
+}
+
+#login-form input {
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
 }
