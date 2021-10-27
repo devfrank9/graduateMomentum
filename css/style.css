@@ -1,8 +1,14 @@
 @import "reset.css";
 
-@import "weather.css";
-@import "quote.css";
+/*---------------MAIN----------*/
 @import "main.css";
+
+/*---------COMPONENTS----------*/
+@import "components/weather.css";
+@import "components/quote.css";
+@import "components/login-form.css";
+@import "components/clock.css";
+@import "components/todo-form.css";
 
 body {
   height: 100vh;
@@ -13,6 +19,24 @@ body {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  width: 100vw;
+  height: 5%;
+}
+
+main {
+  height: 60vh;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  bottom: 30px;
 }
 
 .hidden {

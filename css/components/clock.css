@@ -1,0 +1,19 @@
+#clock-section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.clock h2 {
+  font-size: 140px;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+}
+
+.clock-setting i {
+  margin-left: 20px;
+  font-size: 30px;
+}

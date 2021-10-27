@@ -18,25 +18,37 @@
         </div>
       </div>
     </header>
-    <main>
-      <section id="clock-section">
-        <div class="clock">
-          <h2 id="clock">00:00</h2>
-          <div class="hidden clock-setting">
-            <i class="fas fa-ellipsis-v"></i>
-          </div>
+    <section id="clock-section">
+      <div class="clock">
+        <h2 id="clock">00:00</h2>
+        <div class="hidden clock-setting">
+          <i class="fas fa-ellipsis-v"></i>
         </div>
-      </section>
-      <h1 class="hidden" id="greeting"></h1>
-      <form class="hidden" id="login-form">
-        <p>What's your name?</p>
-        <input required maxlength="15" type="text" />
-      </form>
-      <p>What is main focus for today?</p>
-      <form id="todo-form">
-        <input type="text" required />
-      </form>
-      <ul id="todo-list"></ul>
+      </div>
+    </section>
+    <main>
+      <div class="input-name">
+        <div class="input-name__greeting">
+          <h1 class="hidden" id="greeting"></h1>
+        </div>
+        <div class="input-name__login-form">
+          <form class="hidden" id="login-form">
+            <p>What's your name?</p>
+            <input required maxlength="15" type="text" />
+          </form>
+        </div>
+      </div>
+      <div class="input-todo">
+        <div class="input-todo__form">
+          <p>What is main focus for today?</p>
+          <form id="todo-form">
+            <input type="text" required />
+          </form>
+        </div>
+      </div>
+      <div class="list">
+        <ul id="todo-list"></ul>
+      </div>
     </main>
     <nav>
       <div id="quote">
