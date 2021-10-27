@@ -19,7 +19,14 @@
       </div>
     </header>
     <main>
-      <h2 id="clock">00:00</h2>
+      <section id="clock-section">
+        <div class="clock">
+          <h2 id="clock">00:00</h2>
+          <div class="hidden clock-setting">
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+      </section>
       <h1 class="hidden" id="greeting"></h1>
       <form class="hidden" id="login-form">
         <p>What's your name?</p>
@@ -48,5 +55,9 @@
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
+    <script
+      src="https://kit.fontawesome.com/eeed889523.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
